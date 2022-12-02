@@ -1,7 +1,5 @@
 # Rabari_Aman_FIP_Portfolio
 
-# Rabari_Aman_FIP
-
 # My portfolio
 I am Aman Rabari and I have created my portfolio website.
 I am full-stack developer and I have created three page website.
