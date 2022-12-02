@@ -1,0 +1,49 @@
+{
+    "Project-1": {
+        "project_id": "1",
+        "project_name": "banner_ad",
+        "project_lbBG": "250_size.jpg",
+        "project_biopic": "250_size.jpg",
+        "project_bio": "This banner ad I have done for my makeup brand assignment. I also have created different banners for this assignment."
+    },
+
+    "Project-2": {
+        "project_id": "2",
+        "project_name": "drum_icon",
+        "project_lbBG": "Aman_Icon-3.svg",
+        "project_biopic": "Aman_Icon-3.svg",
+        "project_bio": "This is for my assignment for a music mixer. In that assignment, I had to create icons of musical instruments."
+    },
+
+    "Project-3": {
+        "project_id": "3",
+        "project_name": "Quatro logo",
+        "project_lbBG": "logo.svg",
+        "project_biopic": "logo.svg",
+        "project_bio": "This logo I created this for a rebranding assignment. In that assignment, I had to relaunch the Quatro fruit drink brand. And I created this logo as the new face of the brand."
+    },
+
+    "Project-4": {
+        "project_id": "4",
+        "project_name": "Makeup Seven Logo",
+        "project_lbBG": "Logo_for_makeup_2.svg",
+        "project_biopic": "Logo_for_makeup_2.svg",
+        "project_bio": "This logo I created this for a makeup brand. I have created a makeup brand and for that, I need to create a new stylish logo that can help my product attract maximum public attention."
+    },
+
+    "Project-5": {
+        "project_id": "5",
+        "project_name": "Makeup Product",
+        "project_lbBG": "module-1.png",
+        "project_biopic": "module-1.png",
+        "project_bio": "This is a makeup product that I created for my seven makeup brand. I made this product and try to make my logo look completely visible and attractive to customers."
+    },
+
+    "Project-6": {
+        "project_id": "6",
+        "project_name": "Room Cinema4d",
+        "project_lbBG": "render0001.jpg",
+        "project_biopic": "render0001.jpg",
+        "project_bio": "This is the room that I created in cinema 4d. I have made a bed, door, window, study table, and tv so It can give a more realistic feel to viewers."
+    }
+}

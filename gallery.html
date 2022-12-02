@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aman Rabari Portfolio</title>
+<link href="./css/main-scss.css" rel="stylesheet">
+</head>
+<body>
+	<h1 class="hidden">Aman Rabari Portfolio</h1>
+	<main class="container">
+      <header class="mainHeader grid">
+        	<logo class="logoHeader">
+            <a href="index.html">
+        		  <img src="./aman_rabari_portfolio_logo.svg" alt="Aman Logo" width="220" height="150" id="logo">
+            </a>
+          </logo>
+            <nav class="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                   <li class="selected"><a href="#">GALLERY</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+         <section class="hero" id="galleryHero">
+          <img src="./images/gallery_page_image(1).png" width="980" height="350" alt="image">
+          <h2>Hi everyone I am Aman Rabari</h2>
+          <h3>Here is some of my work I hope you will like it.</h3>
+        </section>
+           
+        
+        <main id="mainGallery" class="grid">
+        	<h2>My Work</h2>
+          <section class="galleryImageCon">
+              <!-- hero thumb component goes here -->
+              <theherothumb @loadlbdata="loadLightbox" v-for="hero in heroData" :hero="hero"></theherothumb>
+
+                
+              <!-- custom lightbox component goes here -->
+              <thelightbox @closelightbox="this.showLB=false" v-if="showLB" :item="lbData"></thelightbox>
+              <!-- end lightbox -->
+          </section>
+
+  
+          
+        </main>
+        
+        
+        
+        <footer class="mainFooter grid">
+      <logoNav class="logoNav">
+        <logofooter class="logoFooter">
+          <a href="index.html">
+            <img src="./aman_rabari_portfolio_logo.svg" alt="Aman logo" width="200" height="80" id="logoFooter">
+          </a>
+        </logofooter>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="gallery.html">GALLERY</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+        </nav>
+      </logoNav>  
+
+      <socialMedia class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="images/youtube.svg" alt="youtube">
+              </a>
+           </li>
+           <li id="instagram">
+            <a href="http://www.instagram.com">
+              <img src="images/instagram.svg" alt="instagram">
+            </a>
+         </li>
+        </ul>
+      </socialMedia>     
+    </footer>
+        
+    </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>
