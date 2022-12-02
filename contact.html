@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aman Portfolio</title>
+<link href="./css/main-scss.css" rel="stylesheet">
+</head>
+<body>
+	<h1 class="hidden">Aman Rabari</h1>
+	<main class="container">
+    	<header class="mainHeader grid">
+        	<logo class="logoHeader">
+            <a href="index.html">
+        		  <img src="./aman_rabari_portfolio_logo.svg" alt="Aman Logo" width="220" height="150" id="logo">
+            </a>
+          </logo>
+            <nav class="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                   <li><a href="gallery.html">GALLERY</a></li>
+                   <li class="selected"><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero" id="contactHero">
+          <img src="./images/contact(2).png" width="980" height="350" alt="image">
+          <h2>Hi everyone I am Aman Rabari</h2>
+          <h3>I am full-stack developer. I can do code and design !!</h3>
+        </section>
+           
+        
+        <main id="mainContact" class="grid"> 
+                    <h2>Contact me</h2>
+        	<section id="contactArea">
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">Here is our contact form. You contact me for more information about my work and anything related to my portfolio, so please use this contact form to contact me.
+            </p> 
+
+            <div class="container-data">
+              <section id="phpdata"></section>
+            </div>
+
+            <form id="contactForm" action="./includes/send.php" method="post">
+
+
+                    <label for="lastname">Name: (required)</label>
+                    <input ref="lastname" type="text" required id="lastname" name="lastname" size="30" placeholder="Aman Rabari">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input ref="email" type="email" required id="email" name="email"  size="30" placeholder="Example@gmail.com">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input ref="phone" type="tel" required id="phone"  name="phone" size="30" placeholder="519-466-258">
+                    
+                    <label for="message">Message:</label>
+                    <textarea ref="message" name="message" id="message" required cols="50" rows="8" placeholder="write your comments here."></textarea>
+                    
+
+                   <div class="wrapper">
+                    <input @click.prevent="processMail" id="submit" type="submit" value="Submit">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+            </form>
+
+            <div class="container-data">
+              <section id="phpdata"></section>
+            </div>
+        	</section>  
+            
+            <section id="mapArea">
+            	<h3>Reach me</h3>
+                <ul>
+                	<li>Aman Rabari, </li>
+					<li>Email  :  contactus@exmaple.com </li><br>
+					<li>Phone  :  +1 021 345 6789</li><br>
+					<li>Address  :  hbjbh</li><br>
+                </ul> 
+                <h4>Map</h4>   
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340002653!2d-0.24168120642536509!3d51.52855824164916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sca!4v1649894072830!5m2!1sen!2sca" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>      
+        </main>
+        
+        
+        <footer class="mainFooter grid">
+      <logoNav class="logoNav">
+        <logoFoter class="logoFooter">
+          <a href="index.html">
+            <img src="./aman_rabari_portfolio_logo.svg" alt="Aman Co." width="200" height="80" id="logoFooter">
+          </a>  
+          </logoFoter>
+        <footerNav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="gallery.html">GALLERY</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+        </footernav>
+      </logoNav>  
+
+      <socialMedia class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="images/youtube.svg" alt="youtube">
+              </a>
+           </li>
+           <li id="instagram">
+            <a href="http://www.instagram.com">
+              <img src="images/instagram.svg" alt="instagram">
+            </a>
+         </li>
+        </ul>
+      </socialMedia>     
+    </footer>
+        
+    </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/main.js" type="module" defer></script>
+
+
+</body>
+</html>
